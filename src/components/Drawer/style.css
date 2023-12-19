@@ -1,0 +1,23 @@
+/* CSS for custom scrollbar */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: lightgray rgb(224, 255, 252);
+    /* background-color: lightgray; */
+    border-radius: 5px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height:10px
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 224, 224, 0.9);
+    border-radius: 15px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: lightgray;
+    border-radius: 5px;
+  }
+  
